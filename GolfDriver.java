@@ -1,5 +1,3 @@
-package observerdesignpattern;
-
 public class GolfDriver {
 
 	public static void main(String[] args) {

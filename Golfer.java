@@ -6,13 +6,14 @@
 
 import java.util.ArrayList;
 
-public class Golfer {
+public class Golfer implements Subject{
     private ArrayList<Observer> observers;
     private String name;
 
     public Golfer(String name) {
         if(name != null) {
             this.name = name;
+        observers = new ArrayList<Observer>();
         }
     }
 
@@ -22,7 +23,7 @@ public class Golfer {
         }
     }
 
-    public void removeObservera(Observer observer) {
+    public void removeObserver(Observer observer) {
         if(observer != null) {
             this.observers.remove(observer);
         }
