@@ -6,7 +6,7 @@
 
 import java.util.ArrayList;
 
-public class Golfer implements Subject{
+public class Golfer implements Subject {
 
     /**
      * Array List to store all current observers
